@@ -1,3 +1,5 @@
+git pull
+
 docker build -t bilibifun-home .
 
 docker stop bilibifun-home && docker rm bilibifun-home
