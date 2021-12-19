@@ -17,6 +17,7 @@ module.exports = {
       {text:'Bitwarden', link: 'https://www.bilibifun.cn/bitwarden'},
       {text:'RSS Hub', link: 'https://www.bilibifun.cn/rsshub'},
       {text:'V2rayA', link: 'https://www.bilibifun.cn/v2raya'},
+      {text:'WEBDAV', link: 'https://www.bilibifun.cn/webdav'},
     ],
   },
 }
