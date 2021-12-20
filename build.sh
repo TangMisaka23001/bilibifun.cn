@@ -6,4 +6,4 @@ docker build -t bilibifun-home .
 
 docker run -p 9013:80 --name bilibifun-home -d bilibifun-home
 
-docker system prune
+echo y | docker system prune
