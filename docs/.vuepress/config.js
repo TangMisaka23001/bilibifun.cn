@@ -10,14 +10,15 @@ module.exports = {
     //顶部导航栏
     navbar: [
       {text:'我的博客', link: 'https://misakatang.cn'},
-      {text:'TTRSS', link: 'https://www.bilibifun.cn/ttrss'},
-      {text:'Portainer', link: 'https://www.bilibifun.cn/portainer'},
-      {text:'青龙面板', link: 'http://110.40.154.33:9006'},
-      {text:'NPS', link: 'https://www.bilibifun.cn/nps'},
-      {text:'Bitwarden', link: 'https://www.bilibifun.cn/bitwarden'},
-      {text:'RSS Hub', link: 'https://www.bilibifun.cn/rsshub'},
-      {text:'V2rayA', link: 'https://www.bilibifun.cn/v2raya'},
-      {text:'WEBDAV', link: 'https://www.bilibifun.cn/webdav'},
+      {text:'NGINX', link: 'https://nginx.bilibifun.cn'},
+      {text:'YARR', link: 'https://yarr.bilibifun.cn'},
+      {text:'Portainer', link: 'https://portainer.bilibifun.cn'},
+      {text:'青龙面板', link: 'https://qinglong.bilibifun.cn'},
+      // {text:'NPS', link: 'https://www.bilibifun.cn/nps'},
+      {text:'Bitwarden', link: 'https://bitwarden.bilibifun.cn'},
+      {text:'RSS Hub', link: 'https://rsshub.bilibifun.cn'},
+//       {text:'V2rayA', link: 'https://www.bilibifun.cn/v2raya'},
+//       {text:'WEBDAV', link: 'https://www.bilibifun.cn/webdav'},
     ],
   },
 }
