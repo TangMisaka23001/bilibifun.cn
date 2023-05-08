@@ -13,3 +13,10 @@ RUN tyarn docs:build
 # 选择更小体积的基础镜像
 FROM nginx:alpine
 COPY --from=builder /workdir/docs/.vuepress/dist /usr/share/nginx/html
+
+LABEL traefik.enable=true
+LABEL traefik.http.routers.home-page.rule=Host(`www.bilibifun.cn`)
+LABEL traefik.http.routers.home-page.entrypoints=websecure
+LABEL traefik.http.services.home-page.loadbalancer.server.port=80
+LABEL traefik.http.routers.home-page.service=home-page
+LABEL traefik.http.routers.home-page.tls.certresolver=leresolver
