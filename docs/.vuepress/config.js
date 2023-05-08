@@ -10,7 +10,7 @@ module.exports = {
     //顶部导航栏
     navbar: [
       {text:'我的博客', link: 'https://misakatang.cn'},
-      {text:'traefik', link: 'https://traefik.bilibifun.cn'},
+      {text:'Traefik', link: 'https://traefik.bilibifun.cn/dashboard/'},
       {text:'YARR', link: 'https://yarr.bilibifun.cn'},
       {text:'Portainer', link: 'https://portainer.bilibifun.cn'},
       {text:'青龙面板', link: 'https://qinglong.bilibifun.cn'},
