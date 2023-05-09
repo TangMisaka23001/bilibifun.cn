@@ -12,6 +12,8 @@ RUN tyarn docs:build
 
 # 选择更小体积的基础镜像
 FROM nginx:alpine
+# 时区
+ENV TimeZone=Asia/Shanghai
 COPY --from=builder /workdir/docs/.vuepress/dist /usr/share/nginx/html
 
 # traefik自动注册发现
