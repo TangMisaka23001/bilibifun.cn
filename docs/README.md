@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: logo.jpg
-heroText: 批哩FUN
+heroText: 个人建站测试
 # tagline: 叔叔我啊 最喜欢赚钱了
 # actionText: 马上进入 →
 # actionLink: /pages/folder1/test1.md
