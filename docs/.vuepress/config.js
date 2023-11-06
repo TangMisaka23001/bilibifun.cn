@@ -1,7 +1,7 @@
 module.exports = {
   lang: 'zh-CN',
-  title: '批哩FUN',
-  description: '批哩FUN',
+  title: '个人建站测试',
+  description: '个人建站测试',
   head: [['link', { rel: 'icon', href: 'logo.jpg' }]],
 
   themeConfig: {
