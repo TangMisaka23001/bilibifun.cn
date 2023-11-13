@@ -19,7 +19,7 @@ module.exports = {
       {text:'青龙面板', link: 'https://qinglong.bilibifun.cn'},
       {text:'Bitwarden', link: 'https://bitwarden.bilibifun.cn'},
       {text:'RSS Hub', link: 'https://rsshub.bilibifun.cn'},
-      {text:'V2rayA', link: 'https://v2raya.bilibifun.cn'},
+      // {text:'V2rayA', link: 'https://v2raya.bilibifun.cn'},
     ],
   },
 }
