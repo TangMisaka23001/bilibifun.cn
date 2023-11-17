@@ -18,7 +18,7 @@ COPY --from=builder /workdir/docs/.vuepress/dist /usr/share/nginx/html
 
 # traefik自动注册发现
 LABEL traefik.enable=true
-LABEL traefik.http.routers.home-page.rule=Host(`oxcafebabe.cn`) || Host(`www.oxcafebabe.cn`)
+LABEL traefik.http.routers.home-page.rule="Host(`oxcafebabe.cn`) || Host(`www.oxcafebabe.cn`)"
 LABEL traefik.http.routers.home-page.entrypoints=websecure
 LABEL traefik.http.services.home-page.loadbalancer.server.port=80
 LABEL traefik.http.routers.home-page.service=home-page
