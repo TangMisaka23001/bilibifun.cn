@@ -3,7 +3,7 @@ FROM node:17-alpine as builder
 COPY . /workdir
 WORKDIR /workdir
 RUN ls
-RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
+RUN npm install -g cnpm --registry=https://registry.npmmirror.com
 RUN cnpm -v
 RUN cnpm i yarn tyarn -g
 RUN tyarn -v
