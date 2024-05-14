@@ -22,4 +22,4 @@ LABEL traefik.http.routers.home-page.rule="Host(`oxcafebabe.cn`) || Host(`www.ox
 LABEL traefik.http.routers.home-page.entrypoints=websecure
 LABEL traefik.http.services.home-page.loadbalancer.server.port=80
 LABEL traefik.http.routers.home-page.service=home-page
-LABEL traefik.http.routers.home-page.tls.certresolver=leresolve
+LABEL traefik.http.routers.home-page.tls.certresolver=leresolver
